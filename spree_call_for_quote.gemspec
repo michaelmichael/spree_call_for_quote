@@ -3,13 +3,13 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_call_for_quote'
   s.version     = '2.2.2'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Creates a "quotable" field in products. Any product with quotable checked will not have its price displayed, and cannot be added to the cart'
+  s.description = 'A very small gem for Spree'
   s.required_ruby_version = '>= 1.9.3'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
-  # s.homepage  = 'http://www.spreecommerce.com'
+  s.author    = 'Michael Caviness'
+  s.email     = 'mcaviness@tcwequipment.com'
+  s.homepage  = 'http://store.tcwequipment.com'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
