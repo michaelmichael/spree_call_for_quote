@@ -4,7 +4,7 @@ Deface::Override.new(virtual_path: 'spree/products/show',
                      text: 
                      '
                      <% if @product.quotable? %>
-                     <a href="http://www.tcwequipment.com/contact" class="btn btn-info btn-lg active" role="button">
+                     <a href="http://www.tcwequipment.com/contact" class="btn btn-info btn-lg" role="button">
                      <%= icon("fa fa-phone") %>
                      Contact Us For a Quote
                      </a>
