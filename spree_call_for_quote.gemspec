@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_call_for_quote'
   s.version     = '2.3'
-  s.summary     = 'Creates a "quotable" field in products. Any product with quotable checked will not have its price displayed, and cannot be added to the cart'
+  s.summary     = 'Creates a "quotable" field in products. Any product with quotable checked will not have its price displayed, and cannot be added to the cart by the UI'
   s.description = 'A very small gem for Spree'
   s.required_ruby_version = '>= 1.9.3'
 
